@@ -1,2 +1,5 @@
-# backend-lab-6
-backend-lab-6
+# 6 Лаба (backend)
+<b>Что сделано: </b>
+* Реализация админки
+# Язык
+PHP
