@@ -1,0 +1,153 @@
+.montserrat-alternates-regular {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-alternates-bold {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: "Montserrat Alternates", sans-serif;
+  min-height: 100vh;
+}
+
+.content-header {
+  max-width:800px;
+  width: 100%;
+  padding: 20px;
+}
+
+.myform h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-top: 20px;
+}
+
+.myform label {
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 7px;
+}
+
+.myform input[type="name"],
+.myform input[type="text"],
+.myform input[type="tel"],
+.myform input[type="email"],
+.myform input[type="date"],
+.myform textarea,
+.myform select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.knopka {
+  width: 100%;
+  padding: 12px;
+  margin-top:5px;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  background-color: #ffffff;
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+.knopka:hover {
+  background-color: #ccc;
+}
+
+.montserrat-alternates-regular {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-alternates-bold {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: "Montserrat Alternates", sans-serif;
+  min-height: 100vh;
+}
+
+.content-header {
+  max-width:800px;
+  width: 100%;
+  padding: 20px;
+}
+
+.myform h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-top: 20px;
+}
+
+.myform label {
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 7px;
+}
+
+.myform input[type="name"],
+.myform input[type="text"],
+.myform input[type="password"],
+.myform input[type="tel"],
+.myform input[type="email"],
+.myform input[type="date"],
+.myform textarea,
+.myform select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.knopka {
+  width: 100%;
+  padding: 12px;
+  margin-top:5px;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  background-color: #ffffff;
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+.knopka:hover {
+  background-color: #ccc;
+}
+
+.success-msg {
+  border: 1px solid green; 
+  padding: 10px; 
+  margin-bottom: 10px; 
+  background: #e6ffed;
+}
