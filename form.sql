@@ -1,4 +1,3 @@
--- Отключаем проверки, чтобы DROP TABLES сработал без ошибок связей
 SET FOREIGN_KEY_CHECKS = 0;
 
 DROP TABLE IF EXISTS Connection;
@@ -45,7 +44,6 @@ CREATE TABLE Admins (
     password_hash VARCHAR(255) NOT NULL
 );
 
--- Заполнение справочника языков
 INSERT INTO Language (language_name) VALUES 
 ('Pascal'), ('C'), ('C++'), ('JavaScript'), ('PHP'), 
 ('Python'), ('Java'), ('Haskell'), ('Clojure'), ('Prolog'), ('Scala');
