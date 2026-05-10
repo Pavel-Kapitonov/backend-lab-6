@@ -31,7 +31,7 @@ if (isset($_GET['delete_id'])) {
         $db->prepare("DELETE FROM Users WHERE request_id = ?")->execute([$del_id]);
         $db->prepare("DELETE FROM Request WHERE request_id = ?")->execute([$del_id]);
         $db->commit();
-        header('Location: admin.php'); // Перезагружаем страницу после удаления
+        header('Location: admin.php'); 
     } catch (PDOException $e) {
         $db->rollBack();
         die("Ошибка при удалении: " . $e->getMessage());

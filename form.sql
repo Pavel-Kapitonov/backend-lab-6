@@ -45,11 +45,13 @@ CREATE TABLE Admins (
 );
 
 INSERT INTO Language (language_name) VALUES 
-('Pascal'), ('C'), ('C++'), ('JavaScript'), ('PHP'), 
-('Python'), ('Java'), ('Haskell'), ('Clojure'), ('Prolog'), ('Scala');
-
+('Pascal'),
+('C'),
+('C++'),
+('JavaScript'),
+('PHP');
 
 INSERT INTO Admins (login, password_hash) 
-VALUES ('admin', '$2y$10$YmG3v/9XvE.GfS.lFvY7CeX6kY9mE.Nf.f/yP8Y.nF.f/yP8Y.nF.');
+VALUES ('admin', '$2y$10$3uywbq3JiUHJ1wS4HvlSVOaxEqpCFibYItZpC9jjIVmwmd41IY4va');
 
 SET FOREIGN_KEY_CHECKS = 1;

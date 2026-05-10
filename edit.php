@@ -1,5 +1,5 @@
 <?php
-require_once('db_conn.php');
+require_once('db.php');
 
 if (empty($_SERVER['PHP_AUTH_USER']) || empty($_SERVER['PHP_AUTH_PW'])) {
     header('HTTP/1.1 401 Unauthorized');
@@ -44,7 +44,6 @@ $stmt = $db->prepare("SELECT * FROM Request WHERE request_id = ?");
 $stmt->execute([$id]);
 $user = $stmt->fetch(PDO::FETCH_ASSOC);
 
-// Загружаем ID выбранных языков
 $stmt = $db->prepare("SELECT language_id FROM Connection WHERE request_id = ?");
 $stmt->execute([$id]);
 $user_langs = $stmt->fetchAll(PDO::FETCH_COLUMN);
