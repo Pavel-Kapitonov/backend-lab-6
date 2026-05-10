@@ -58,6 +58,7 @@ setcookie('values', '', 100000, '/');
     <meta charset="UTF-8">
     <title>Форма Лаба 4</title>
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <style>
         .error { border: 2px solid red; background-color: #ffe6e6; }
         .error-msg { color: red; font-size: 0.8em; }
